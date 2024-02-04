@@ -37,9 +37,24 @@ body{
 background-color: aliceblue;
 }
 
+.gallery-container{
+    background-color:black;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 2fr 1fr);
+    grid-gap: 20px;
+
+}
+
+.gallery-container img{
+    width: 100%;
+}
+
+h1,
 p{
     font-family: "poppins", sans-serif;
     font-size: 25px;
+    color:red;
 }
 
 img{
