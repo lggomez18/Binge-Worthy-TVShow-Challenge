@@ -8,13 +8,13 @@
 }
 
 body{
-    background:black;
+    background:#190B14;
     width: 100%;
 }
 
 
 .header{
-    position: fixed;
+    position:absolute;
     top:0;
     left: 0;
     width: 100%;
@@ -37,17 +37,11 @@ body{
 background-color: aliceblue;
 }
 
-.gallery-container{
-    background-color:black;
-    display:grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat(2, 2fr 1fr);
-    grid-gap: 20px;
 
-}
 
-.gallery-container img{
-    width: 75%;
+img{
+    width: fit-content;
+    height: fit-content;
 }
 
 h1,
