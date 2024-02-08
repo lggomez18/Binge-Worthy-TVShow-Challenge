@@ -2,51 +2,91 @@
 
 body{
     background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
 }
 
 h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     color:rebeccapurple;
 }
 
 h2{
+    font-family:'Nanum Gothic Coding', monospace;
     text-align: center;
-    font-size: 25px;
-    color:aliceblue;
+    font-size: 45px;
+    padding: 45px 15px;
+    color:rgb(137, 30, 47);
+}
+
+p{
+font-size: 20px;
+text-align: justify;
+line-height: 2;
+padding: 30px 15px;
+
 }
 
 img{
     max-width: 100%;
 }
 
+
 button{
     display:block;
     margin: 0 auto;
     border: 1px solid plum;
     background: white;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 6px;
     padding:10px 15px;
     transition: all 150ms ease-in-out;
 }
 
 button:hover{
-    background: plum;
+    background:rgb(137, 30, 47);
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rebeccapurple;
+}
+
+a:hover{
+    background:rgb(137, 30, 47);
+    transition: all 150ms ease-in-out;
+    color:azure;
+ 
+}
 .container{
-    max-width: 1000px;
-    background: white;
-    padding: 50px;
+    max-width: 600px;
+    background:whitesmoke;
+    padding: 20px;
     border-radius: 10px;
     margin:20px auto;
 }
+
 
 footer{
     text-align: center;
     margin: 15px 0;
 }
+
+
+.theme-button{
+    font-size: 12px;
+    background: black;
+    color:white;
+    padding:5 8px;
+}
+
+.theme-button:hover{
+    color:black;
+    background: white;
+
+}
+
 
 
