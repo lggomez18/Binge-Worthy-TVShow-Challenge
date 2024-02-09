@@ -15,10 +15,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body class="dark">
 
     <header class="header">
-        <a href="#" class="logo">Logo</a>
+        <a href="#" class="logo">lg</a>
 
         <nav class="navbar">
             <a href="#">home</a>
@@ -71,6 +71,21 @@ class="authorpicture"/></a>
     Coded by Leticia Gmx 🇲🇽 Open-source on <a href="https://github.com/lggomez18/Binge-Worthy-TVShow-Challenge">Github</a>💻
 </footer>
 
+
+<script>
+
+    alert ("Watch this series on Hulu for $6.99/month");
+
+    function changeTheme(){
+        let body=document.querySelector("body");
+        
+        body.classList.toggle("dark");
+    
+    }
+
+    let themeButton =document.querySelector(".theme-button");
+    themeButton.addEventListener("click", changeTheme);
+</script>
 
 </body>
 </html>
