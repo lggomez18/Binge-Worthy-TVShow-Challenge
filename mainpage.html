@@ -36,14 +36,14 @@
 <h1>Dystopian TV Series</h1>
 <h2>THE HANDMAID'S TALE</h2>
 
-<video autoplay muted loop id="myVideo">
-    <source src="rain.mp4" type="video/mp4">
-  </video>
+<iframe width="420" height="315" autoplay muted loop id="myVideo">
+    <source href="https://www.youtube.com/watch?v=81PyH5TH-NQ" type="video/mp4">
+</iframe>
   
   <!-- Optional: some overlay text to describe the video -->
   <div class="content">
-    <h1>Heading</h1>
-    <p>Lorem ipsum...</p>
+    <h1>Hulu preview</h1>
+    <p><i>"We didn't wake up, when they blamed terrorists and suspended the Constitution..."</i></p>
     <!-- Use a button to pause/play the video with JavaScript -->
     <button id="myBtn" onclick="myFunction()">Pause</button>
   </div>
@@ -96,6 +96,24 @@ class="authorpicture"/></a>
 
     let themeButton =document.querySelector(".theme-button");
     themeButton.addEventListener("click", changeTheme);
+
+
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
 </script>
 
 </body>
