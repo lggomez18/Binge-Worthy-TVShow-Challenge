@@ -68,6 +68,16 @@ a:hover{
     margin:20px auto;
 }
 
+.authorpicture{
+    border-radius: 10px;
+    transition: all 150 ms ease-in-out;
+}
+
+.authorpicture:hover{
+    filter: contrast(50%);
+    transform: scale(1.2);
+
+}
 
 footer{
     text-align: center;
