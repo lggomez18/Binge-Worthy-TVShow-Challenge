@@ -95,6 +95,13 @@ a:hover{
     margin:20px auto;
 }
 
+.books{
+    max-width: 600px;
+    padding: 20px;
+    margin:20px auto;
+    color:rebeccapurple;
+}
+
 .content{
     display:grid;
     grid-template-columns: 1fr 1fr;
