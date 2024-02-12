@@ -55,6 +55,7 @@ padding: 30px 15px;
 
 img{
     max-width: 100%;
+    margin: auto;
 }
 
 
@@ -98,6 +99,11 @@ a:hover{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.content img{
+    max-width: 80%;
+}
+
 
 .grid{
     display: grid;
