@@ -14,7 +14,174 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap" rel="stylesheet">
 
+<style>
+
+body{
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
+}
+
+header{
+    background-color: #333;
+    overflow:hidden;
+
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    /*background-color:#04AA6D;*/
+    color: black;
+  }
+
+  .navbar a.active {
+    background-color:rebeccapurple;
+    color: white;
+  }
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    color:rebeccapurple;
+}
+
+h2{
+    font-family:'Nanum Gothic Coding', monospace;
+    text-align: center;
+    font-size: 45px;
+    padding: 45px 15px;
+    color:rgb(137, 30, 47);
+}
+
+p{
+font-size: 20px;
+text-align: justify;
+line-height: 2;
+padding: 30px 15px;
+
+}
+
+img{
+    max-width: 100%;
+    margin: auto;
+}
+
+
+button{
+    display:block;
+    margin: 0 auto;
+    border: 1px solid plum;
+    background: white;
+    font-size: 20px;
+    border-radius: 6px;
+    padding:10px 15px;
+    transition: all 150ms ease-in-out;
+}
+
+button:hover{
+    background:rgb(137, 30, 47);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rebeccapurple;
+}
+
+a:hover{
+    background:rgb(137, 30, 47);
+    transition: all 150ms ease-in-out;
+    color:azure;
+ 
+}
+.container{
+    max-width: 600px;
+    background:whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    margin:20px auto;
+}
+
+.books{
+    max-width: 600px;
+    padding: 20px;
+    margin:20px auto;
+    color:rebeccapurple;
+}
+
+.content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content img{
+    max-width: 80%;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+
+}
+
+.grid img{
+    width:100%;
+    border-radius: 10px;
+}
+
+
+.authorpicture{
+    margin:10px auto;
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.authorpicture:hover{
+    filter: contrast(80%);
+    transform: scale(1.2);
+
+}
+
+footer{
+    text-align: center;
+    margin: 15px 0;
+    color:azure
+}
+
+
+.theme-button{
+    font-size: 12px;
+    background: black;
+    color:white;
+    padding:5 8px;
+    margin: 15px auto;
+}
+
+.theme-button:hover{
+    color:black;
+    background: white;
+
+}
+
+.dark{
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+}
+
+</style>
 </head>
+
 <body class="dark">
 
     <header class="header">
@@ -58,7 +225,7 @@ class="authorpicture"/></a>
 <p> Margaret Atwood is author of many other dystopian novels, including the famous <i>MaddAddam Trilogy</i>.</p>
 
 <div class="grid">
-<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/841/original/THT1.jpeg?1707105859"/>   
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/841/original/THT1.jpeg?1707105859"/> 
 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/358/original/THT2.jpeg?1707360338"/>
 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/360/original/tht3.jpeg?1707360662"/>
 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/526/original/tht4.jpeg?1707447078"/>
