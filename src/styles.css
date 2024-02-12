@@ -94,6 +94,11 @@ a:hover{
     margin:20px auto;
 }
 
+.content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .grid{
     display: grid;
     grid-template-columns:1fr 1fr;
